@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html, body{
+  width: 100%;
+  min-height: 100vh;
+  align-items: flex-start; 
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+
+.cont{
+  background-color: white;
+  width: 700px;
+  
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.cont h2,.task{
+  margin-top: 30px;
+}
+
+#input{
+  width: 500px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+#btn{
+  background: black;
+  padding: 12px 15px;
+  color: white;
+  cursor: pointer;
+  transition:  background-color .1s ease-in;
+}
+
+#btn:hover{
+  background-color: rgb(33, 32, 32);
+}
+
+ 
+#taskList {
+  padding-left: 0; 
+  margin-top: 20px;
+}
+/* 
+#taskList li {
+  width: 500px;
+  background-color: pink;
+  list-style: none;
+  margin-top: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: normal;
+  word-break: break-word;
+  flex-wrap: wrap;
+}
+ */
